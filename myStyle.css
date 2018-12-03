@@ -1,0 +1,11 @@
+label
+{
+    color: purple;
+    font-weight:bold
+}
+.kind1 {color: red; font-size: 15px}
+
+table{
+
+    background-image: url('photo.jpg')
+}
