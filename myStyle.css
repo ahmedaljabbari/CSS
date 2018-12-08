@@ -18,3 +18,13 @@ table {background-image: url('photo.jpg')}
 div.note1{margin:10px 0}
 
 caption{font-weight: bold}
+
+div.float_left
+    {
+       margin:10px;
+       background: brown;
+       width: 300px;
+       color: white;
+       padding:5px;
+       float: left
+    }
