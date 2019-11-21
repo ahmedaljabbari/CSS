@@ -1,0 +1,72 @@
+<!DOTCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        
+        
+        <style>
+            body { font-size: 1em; }
+            
+            .menu > div {
+                position: relative;
+                background-color: hotpink;
+                display: inline-block;
+                margin: 0.5em;
+                padding: 0.4em;
+                padding-left: 0.8em;
+                padding-right: 0.8em;
+                border-radius: 1em;
+            }
+            .menu > div:hover {
+                border-radius: 1em 1em 0em 0em;
+                cursor: pointer;
+                color:black;
+            }
+            .menu > div:hover .submenu {
+                display: block;
+            }
+
+            .submenu {
+                position: absolute;
+                top: 1.9em;
+                background-color: black;
+                color :white;
+                display: none;
+                width: 100%;
+                left: 0em;
+                border-radius: 0em 0em 1em 1em;
+            }
+            .submenu > div {
+                padding: 0.2em;
+                padding-left: 0.6em;
+                margin: 0.2em;
+            }
+            .submenu > div:hover {
+                background-color: lightblue;
+                color:black;
+                border-radius: 1em 1em 1em 1em;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <div>Hem</div>
+                <div>Kattbilder
+                    <div class="submenu">
+                        <div>Roliga</div>
+                        <div>Söta</div>
+                        <div>Politiska</div>
+                    </div>
+                </div>
+                <div>Profil
+                    <div class="submenu">
+                        <div>Om mig</div>
+                        <div>Logga ut</div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </body>
+</html>
